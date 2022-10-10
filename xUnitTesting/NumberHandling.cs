@@ -12,18 +12,16 @@ namespace xUnitTesting
         //Addition  
         public int Addition(int input_1, int input_2)
         {
-            Console.WriteLine("Optional 3rd input, Type 0 if you dont need it");
-            int input_3 = Convert.ToInt32(Console.ReadLine());
-            int result = input_1 + input_2 + input_3;
+
+            int result = input_1 + input_2;
             return result;
         }
 
         //Substraction  
-        public int Subtraction(int input_1, int input_2, int input_3)
+        public int Subtraction(int input_1, int input_2)
         {
-            Console.WriteLine("Optional 3rd input, Type 0 if you dont need it");
-            input_3 = Convert.ToInt32(Console.ReadLine());
-            int result = input_1 - input_2 - input_3;
+         
+            int result = input_1 - input_2 ;
             return result;
         }
         //Multiplication  
@@ -53,6 +51,8 @@ namespace xUnitTesting
             int returnSum = sumArray.Sum();
             return returnSum;
         }
+
+
 
         //Overloaded Subtraction
 
